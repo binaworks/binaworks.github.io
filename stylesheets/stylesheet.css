@@ -1,6 +1,8 @@
 /*******************************************************************************
+Started with 
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
+Tweaked for image layout.
 *******************************************************************************/
 
 @import url(pygment_trac.css);
@@ -146,7 +148,7 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-
+  
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
@@ -246,6 +248,7 @@ th {
 td {
   padding: 10px;
   border: 1px solid #373737;
+
  }
 
 form {
@@ -424,4 +427,49 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/* Sabina's mods */
+#header_wrap .inner {
+  padding: 30px 10px 20px 10px;
+}
+
+#main_content {
+  padding-top: 20px;
+}
+
+img
+{
+    background: gainsboro;
+    max-width: 95%;
+}
+
+table {
+  border: none;
+  margin-bottom: 10px;
+ }
+
+td {
+  border: none;
+  padding-top: "0px";
+ }
+
+tr {
+  vertical-align: top;
+  height: 100px;
+}
+
+#li_profile {
+  display: block;
+  position: absolute;
+  top:30px;
+  right: 30px;
+}
+
+#li_img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: none;
 }
