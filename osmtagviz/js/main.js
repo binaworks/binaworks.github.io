@@ -212,7 +212,8 @@ function runOsmTagVis() {
     OsmTagVis.osmJson = {};
     startSpinner();
     // Try to get current location
-    getLocation();
+//    getLocation();
+    makeMap();
 //    queryOverpass();
 
     
