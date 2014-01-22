@@ -160,6 +160,8 @@ function runOsmTagVis() {
             break;
         }
         window.alert(errMsg);
+        // Use default position
+        makeMap();
     }
     
     function setPosition(position) {
@@ -197,6 +199,8 @@ function runOsmTagVis() {
             window.navigator.geolocation.getCurrentPosition(setPosition, showLocationError);
         } else {
             window.alert("Geolocation is not supported by this browser.");
+            // Use default position
+            makeMap();
         }
     }
     //Initialize app variables.
@@ -209,7 +213,6 @@ function runOsmTagVis() {
     startSpinner();
     // Try to get current location
     getLocation();
-//    makeMap();
 //    queryOverpass();
 
     
