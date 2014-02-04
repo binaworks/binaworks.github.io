@@ -441,9 +441,15 @@ Small Device Styles
 img
 {
     background: gainsboro;
+    padding: 5px;
+/*
     max-width: 95%;
+*/
 }
-
+img:hover 
+{
+    background: steelblue;
+}
 table {
   border: none;
   margin-bottom: 10px;
