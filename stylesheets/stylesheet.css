@@ -2,7 +2,7 @@
 Started with 
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
-Tweaked for image layout.
+Customized at the bottom.
 *******************************************************************************/
 
 @import url(pygment_trac.css);
@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -33,7 +33,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
   display: block;
 }
 
@@ -434,6 +434,10 @@ Small Device Styles
   padding: 30px 10px 20px 10px;
 }
 
+#header_wrap p {
+  color: #fff;
+}
+
 #main_content {
   padding-top: 20px;
 }
@@ -457,7 +461,7 @@ table {
 
 td {
   border: none;
-  padding-top: "0px";
+  padding-top: 0px;
  }
 
 tr {
@@ -466,16 +470,23 @@ tr {
 }
 
 #li_profile {
-  display: block;
+  position: absolute;
+  top:30px;
+  right: 60px;
+}
+
+#gh_profile {
   position: absolute;
   top:30px;
   right: 30px;
 }
 
-#li_img {
+.my_img {
   margin: 0;
   padding: 0;
   border: 0;
+  width: 16px;
+  height: 16px;
   box-shadow: none;
   background: none;
 }
