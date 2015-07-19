@@ -446,6 +446,7 @@ img
 {
     background: gainsboro;
     padding: 5px;
+    height: 200px;
 /*
     max-width: 95%;
 */
@@ -462,6 +463,7 @@ table {
 td {
   border: none;
   padding-top: 0px;
+  width: 50%;
  }
 
 tr {
