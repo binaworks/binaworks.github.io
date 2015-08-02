@@ -442,19 +442,12 @@ Small Device Styles
   padding-top: 20px;
 }
 
-img
+
+td:hover
 {
-    background: gainsboro;
-    padding: 5px;
-    height: 200px;
-/*
-    max-width: 95%;
-*/
+    background: gainsboro;;
 }
-img:hover 
-{
-    background: steelblue;
-}
+
 table {
   border: none;
   margin-bottom: 10px;
@@ -462,7 +455,7 @@ table {
 
 td {
   border: none;
-  padding-top: 0px;
+  /*padding-top: 0px;*/
   width: 50%;
  }
 
